@@ -42,9 +42,9 @@ public func GenerateGenericUpbringingEvent(seed: Int32) -> String {
   if upbringingVal == 3 { return "Parents gave them up for adoption. "; }
   if upbringingVal == 4 { return "Parent sold them for money. "; }
   if upbringingVal == 5 { return "Parent overdosed on chems. "; }
-  if upbringingVal >= 6 { return "Parents died in a car crash. "; }
-  if upbringingVal >= 7 { return "Raised by their grandparents."; }
-  if upbringingVal >= 8 { return "Grew up with a loving mother and father. "; }
+  if upbringingVal == 6 { return "Parents died in a car crash. "; }
+  if upbringingVal == 7 { return "Raised by their grandparents."; }
+  if upbringingVal == 8 { return "Grew up with a loving mother and father. "; }
   if upbringingVal >= 9 { return "Adopted into a loving home."; }
 }
 
